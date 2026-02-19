@@ -1,0 +1,16 @@
+h2 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color:purple;
+}
+
+a:hover {
+    color:red;
+}
+
+img {
+    margin-top:10px;
+}
