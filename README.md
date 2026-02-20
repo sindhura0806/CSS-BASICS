@@ -69,16 +69,47 @@ CSS text-align: center; text-decoration: underline; text-transform: uppercase; l
 ## ✅ 4️⃣ Style the HTML Profile Page
 # HTML :
 
-<title>My Profile</title>
-<div class="container">
+*<!DOCTYPE html>
+<html lang="en">
 
-    <!-- Profile Photo -->
-     <h1>My Profile</h1>
-    <img src="img/SRUJANA.jpeg" 
-    alt="My Photo"
-    class="profile-img">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sindhura's profile</title>
+    <!--External CSS-->
+    <link rel="stylesheet" href="style.css">
 
-    <!-- About Section -->
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .section {
+            background-color: white;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .skills p {
+            color: darkgreen;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body align="center">
+    <!-- Inline CSS -->
+    <h2 style="color: darkblue;">My Profile</h2>
+
+    <img src="myself.jpeg" 
+         alt="My Photo"
+         width="150"
+         height="150"
+         style="border-radius:50%;">
+
     <div class="section">
         <h2>About Me</h2>
         <p>
@@ -88,86 +119,48 @@ CSS text-align: center; text-decoration: underline; text-transform: uppercase; l
         </p>
     </div>
 
-    <!-- Skills Section -->
-    <div class="section">
+    <div class="section skills">
         <h2>My Skills</h2>
         <p>HTML</p>
         <p>CSS</p>
-        <p>JavaScript</p>
+        <p>Java script</p>
     </div>
 
-    <!-- Contact Section -->
     <div class="section">
         <h2>Contact Me</h2>
-        <p>Email: srujanach2005@gmail.com</p>
+        <p>Email:sindhura@gmail.com</p>
         <p>
-            GitHub:
-            <a href="https://github.com/srujanach2005-star" target="_blank">
-                Visit My GitHub
+            GitHUb:
+            <a href="https://github.com/username" target="_blank">
+                Visit my Github
             </a>
         </p>
     </div>
 
-</div>
+</body>
+
+</html>
 
 
 ## CSS :
 
 
-body { background-color: #f0f8ff;
-
-font-family: Arial, sans-serif;
+h2 {
+    text-transform: uppercase;
 }
 
-.container { width: 400px;
-
-margin: 40px auto;
-
-padding: 20px;
-
-background-color: white;
-
-border-radius: 10px;
-
-box-shadow: 0px 0px 10px gray;
-
-text-align: center;
+a {
+    text-decoration: none;
+    color:purple;
 }
 
-.profile-img { width: 150px;
-
-height: 150px;
-
-border-radius: 50%;
-
-border: 4px solid black;
+a:hover {
+    color:red;
 }
 
-.section { margin-top: 20px; }
-
-h2 { color: black;
-
-text-transform: uppercase;
+img {
+    margin-top:10px;
 }
-
-p { color: #555;
-
-font-size: 14px;
-}
-
-a { color: black;
-
-text-decoration: none;
-}
-
-a:hover { text-decoration: underline;
-
-color: darkred;
-} .container:hover { transform: scale(1.05);
-
-transition: 0.3s;
-}
-
 
 # OUT PUT
 ![Day-4 Output](..img/DAY-4-output.png)
