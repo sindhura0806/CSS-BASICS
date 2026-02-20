@@ -146,21 +146,30 @@ CSS text-align: center; text-decoration: underline; text-transform: uppercase; l
 
 
 h2 {
+
     text-transform: uppercase;
+
 }
 
+
 a {
+
     text-decoration: none;
     color:purple;
+    
 }
 
 a:hover {
+
     color:red;
+    
 }
 
 img {
+
     margin-top:10px;
+
 }
 
 # OUT PUT
-![Day-4 Output](..img/DAY-4-output.png)
+![Day-4 Output](../img/DAY-4-output.png)
