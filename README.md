@@ -173,4 +173,4 @@ img {
 
 # OUT PUT
 
-![Day-4 Output](DAY-4/img/day-4-output.png)
+![Day-4 Output](https://raw.githubusercontent.com/sindhura0806/CSS-BASICS/main/DAY-4/img/day-4-output.png)
