@@ -172,4 +172,4 @@ img {
 }
 
 # OUT PUT
-![Day-4 Output](../img/DAY-4 output.png)
+![Day-4 Output](../img/DAY-4--output.png)
